@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
   } catch {}
 });
 
-const userRoute = require("./routes/users");
-app.use("/users", userRoute);
+// const userRoute = require("./routes/users");
+// app.use("/users", userRoute);
 
 // app.listen(process.env.APP_PORT);
 app.listen(process.env.PORT || 4000);
